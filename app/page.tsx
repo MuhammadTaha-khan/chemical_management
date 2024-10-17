@@ -1,4 +1,3 @@
-import Image from "next/image";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";

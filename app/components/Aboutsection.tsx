@@ -1,6 +1,5 @@
 import React from "react";
 import Image from 'next/image'
-import second from '../../public/hero1.png'
 
 const Aboutsection: React.FC = () => {
   return (
