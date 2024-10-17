@@ -6,7 +6,7 @@ const SliderSection: React.FC = () => {
     <section className="slider-area slider-tp-top pt-24 relative mb-36 md:mb-0 ">
 
       {/* Slider Content */}
-      <div className="container md:mx-auto  mx-8   ">
+      <div className="container mx-auto     ">
         {/* Slide 1 */}
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center bg-white mb-8">
           <div className="order-2 lg:order-1 pt-14">
