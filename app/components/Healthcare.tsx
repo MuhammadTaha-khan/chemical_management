@@ -12,7 +12,7 @@ const Healthcare: React.FC = () => {
             <div className="flex items-center space-x-4">
               <i className="fas fa-user-md text-4xl"></i>
               <div>
-                <h3 className="text-xl font-bold">I'm a Healthcare Provider</h3>
+                <h3 className="text-xl font-bold">I&apos;m a Healthcare Provider</h3>
                 <p className="mt-2 text-gray-600">
                   We pioneer in clinical testing with industry leaders to make
                   sure your patients have the information.
@@ -32,7 +32,7 @@ const Healthcare: React.FC = () => {
             <div className="flex items-center space-x-4">
               <i className="fas fa-vials text-4xl"></i>
               <div>
-                <h3 className="text-xl font-bold">I'm a Patient</h3>
+                <h3 className="text-xl font-bold">I&apos;m a Patient</h3>
                 <p className="mt-2 text-gray-600">
                   We do that by offering tests that focus on prevention & early
                   identification of potential health conditions.
@@ -54,7 +54,7 @@ const Healthcare: React.FC = () => {
             Trusted Data For Clear Health Decisions
           </h2>
           <p className="mt-4 text-gray-200 max-w-2xl mx-auto">
-            Your focus is on providing patients the best possible care and we're
+            Your focus is on providing patients the best possible care and we&apos;re
             here to help. To complement our comprehensive menu of tests, we
             provide resources to registered healthcare professionals to support
             your testing needs.
