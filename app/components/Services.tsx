@@ -3,22 +3,22 @@ import Image from 'next/image'
 
 const SliderSection: React.FC = () => {
   return (
-    <section className="slider-area slider-tp-top pt-24 relative ">
+    <section className="slider-area slider-tp-top pt-24 relative mb-36 md:mb-0 ">
 
       {/* Slider Content */}
-      <div className="container mx-auto ">
+      <div className="container md:mx-auto  mx-8   ">
         {/* Slide 1 */}
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center bg-white mb-8">
           <div className="order-2 lg:order-1 pt-14">
             <div className="slider-content ">
-              <h2 className="text-5xl font-bold mb-8 leading-normal text-[#589142]">
+              <h2 className="text-5xl font-bold mb-8 leading-normal text-[#589142] ">
                 Our Passion is to <br /> Give you Better <br /> Service
               </h2>
-              <p className="mb-8">
+              <p className="mb-8 ">
                 Your full service lab for clinical trials. Our mission is to ensure the <br />
                 generation of accurate and precise findings.
               </p>
-              <div className="slider-content__btn flex space-x-6 mb-32">
+              <div className="slider-content__btn flex space-x-6 mb-52 ">
                 <a className="tp-btn bg-[#589142] text-white py-2 px-6 rounded" href="contact.html">
                   Appointment
                 </a>
