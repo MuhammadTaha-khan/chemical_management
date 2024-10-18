@@ -49,60 +49,61 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="bg-white p-10 rounded-lg shadow-lg flex flex-col items-center space-y-8 md:space-y-0 md:flex-row mt-32">
         <div className="w-full md:w-1/2 p-5">
-          <h2 className="text-2xl text-green-600 font-semibold mb-5">
+          <h2 className="text-2xl text-[#589142] font-semibold mb-5">
             Select Date and Time
           </h2>
 
           {/* Calendar Section */}
-          <div className="bg-white rounded-lg shadow-md p-4 ">
-            <div className="flex justify-between items-center">
-              <button
-                className="text-gray-500 hover:text-gray-700"
-                onClick={handlePrevMonth}
-              >
-                &#60;
-              </button>
-              <span className="text-lg font-semibold text-gray-700">
-                {monthNames[month]} {year}
-              </span>
-              <button
-                className="text-gray-500 hover:text-gray-700"
-                onClick={handleNextMonth}
-              >
-                &#62;
-              </button>
-            </div>
+          <div className="bg-white rounded-lg shadow-md p-4 max-w-full md:max-w-lg mx-auto">
+  <div className="flex justify-between items-center">
+    <button
+      className="text-gray-500 hover:text-gray-700"
+      onClick={handlePrevMonth}
+    >
+      &#60;
+    </button>
+    <span className="text-lg md:text-xl font-semibold text-gray-700">
+      {monthNames[month]} {year}
+    </span>
+    <button
+      className="text-gray-500 hover:text-gray-700"
+      onClick={handleNextMonth}
+    >
+      &#62;
+    </button>
+  </div>
 
-            <div className="grid grid-cols-7 text-center mt-4 text-gray-500 md:gap-5 gap-8">
-              {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((day) => (
-                <span key={day} className="font-semibold">
-                  {day}
-                </span>
-              ))}
+  <div className="grid grid-cols-7 text-center mt-4 text-gray-500 gap-4 md:gap-6">
+    {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((day) => (
+      <span key={day} className="font-semibold text-sm md:text-base">
+        {day}
+      </span>
+    ))}
 
-              {/* Generate empty spaces before the first day of the month */}
-              {Array.from({ length: new Date(year, month, 1).getDay() })
-                .fill(null)
-                .map((_, index) => (
-                  <span key={index} className="py-2"></span>
-                ))}
+    {/* Generate empty spaces before the first day of the month */}
+    {Array.from({ length: new Date(year, month, 1).getDay() })
+      .fill(null)
+      .map((_, index) => (
+        <span key={index} className="py-2"></span>
+      ))}
 
-              {/* Render the days */}
-              {Array.from({ length: daysInMonth(month, year) }, (_, i) => i + 1).map((day) => (
-                <button
-                  key={day}
-                  className={`py-2 rounded-full w-10 h-10 ${
-                    selectedDate === day
-                      ? 'bg-green-500 text-white'
-                      : 'hover:bg-green-100 text-gray-700'
-                  }`}
-                  onClick={() => handleDateClick(day)}
-                >
-                  {day}
-                </button>
-              ))}
-            </div>
-          </div>
+    {/* Render the days */}
+    {Array.from({ length: daysInMonth(month, year) }, (_, i) => i + 1).map((day) => (
+      <button
+        key={day}
+        className={`py-2 rounded-full w-8 h-8 md:w-10 md:h-10 ${
+          selectedDate === day
+            ? 'bg-[#589142] text-white'
+            : 'hover:bg-green-100 text-gray-700'
+        }`}
+        onClick={() => handleDateClick(day)}
+      >
+        {day}
+      </button>
+    ))}
+  </div>
+</div>
+
         </div>
 
         {/* Form Section */}
@@ -127,7 +128,7 @@ export default function Home() {
               placeholder="Full name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="border border-gray-300 rounded-3xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500 w-full"
+              className="border border-gray-300 rounded-3xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#589142] w-full"
               required
             />
             <input
@@ -135,13 +136,13 @@ export default function Home() {
               placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="border border-gray-300 rounded-3xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500 w-full"
+              className="border border-gray-300 rounded-3xl px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#589142] w-full"
               required
             />
               </div>
             <button
               type="submit"
-              className="px-4 py-2 bg-green-500 text-white rounded-3xl hover:bg-green-600 transition w-full"
+              className="px-4 py-2 bg-[#589142] text-white rounded-3xl hover:bg-[#589142] transition w-full"
             >
               Get a Free Consultation
             </button>
