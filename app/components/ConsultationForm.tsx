@@ -25,7 +25,7 @@ export default function ConsultationForm() {
         <h1 className="text-3xl lg:text-4xl font-bold mb-6">
           For Free Consultation and to download the steps
           <span className="text-white leading-snug">
-            "10 steps to do annual chemical inventory"
+            10 steps to do annual chemical inventory
           </span>
         </h1>
         <p className="text-gray-300 mb-8">
