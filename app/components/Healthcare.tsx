@@ -52,7 +52,7 @@ const Healthcare: React.FC = () => {
           {/* </div> */}
 
           {/* Trusted Data Section */}
-          <div className="text-center mb-16">
+          <div className="md:text-center  text-start mb-16">
             <h2 className="text-3xl font-bold">
               {/* Trusted Data For Clear Health Decisions */}
             </h2>
@@ -67,7 +67,7 @@ const Healthcare: React.FC = () => {
           </div>
 
           {/* Action Buttons */}
-          <div className="flex justify-center gap-4 ">
+          <div className="flex justify-center gap-4 md:flex-row flex-col ">
             <a
               href="#"
               className="bg-green-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-green-600"
