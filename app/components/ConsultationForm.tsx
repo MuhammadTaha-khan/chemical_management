@@ -71,7 +71,7 @@ export default function ConsultationForm() {
           />
         ) : (
           <Image
-            src="/consform.jpeg"
+            src="/consform.jpg"
             alt="10 Steps Preview"
             height={600}
             width={400}

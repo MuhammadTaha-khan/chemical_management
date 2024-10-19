@@ -14,17 +14,21 @@ const SliderSection: React.FC = () => {
               <h2 className="text-5xl font-bold mb-8 leading-normal text-[#589142]">
                 Our Passion is to <br /> Give you Better <br /> Service
               </h2>
-              <p className="mb-8">
-                Your full service lab for clinical trials. Our mission is to ensure the <br />
-                generation of accurate and precise findings.
+              <p className="mb-6 w-auto max-w-lg">
+              Our mission is to ensure the safe and accurate tracking of chemicals, 
+              fostering a secure environment for students and staff.
+              </p>
+              <p className="mb-8 w-auto max-w-lg">
+              For additional support and answers to common questions, we encourage 
+              you to visit our FAQ section. Read our FAQ here!
               </p>
               <div className="slider-content__btn flex space-x-6 mb-32">
                 <a className="tp-btn bg-[#589142] text-white py-2 px-6 rounded" href="contact.html">
                   Appointment
                 </a>
-                <a className="tp-btn-second ml-6 text-[#589142] py-2 px-6 border border-[#589142] rounded" href="about.html">
+                {/* <a className="tp-btn-second ml-6 text-[#589142] py-2 px-6 border border-[#589142] rounded" href="about.html">
                   About us
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

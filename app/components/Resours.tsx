@@ -3,7 +3,7 @@ import React from 'react';
 const EmailSignup: React.FC = () => {
   return (
     <div className='mx-10'>
-        <div className="flex flex-col md:flex-row justify-between items-center bg-[#589142] rounded-lg p-8 shadow-lg max-w-4xl mx-auto mt-20 mb-20 py-28 px-16  gap-20">
+        <div className="flex flex-col md:flex-row justify-between items-center bg-[#589142] rounded-3xl p-8 shadow-lg max-w-4xl mx-auto mt-20 mb-20 py-28 px-16  gap-20">
       <div className="text-white text-4xl font-bold leading-normal">
         Get Updates <br />& Resources
       </div>
