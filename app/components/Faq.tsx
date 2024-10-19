@@ -1,59 +1,125 @@
-"use client";
+// "use client"
 
-import { useState } from "react";
+// import React, { useState } from 'react';
 
-const Faq = () => {
-  const [email, setEmail] = useState<string>("");
+// interface FAQItem {
+//   question: string;
+//   answer: string;
+// }
 
-  // Define the email submission logic within the client component
-  const handleEmailSubmit = () => {
-    if (!email) {
-      console.error("Email is required");
-      return;
-    }
-    console.log("Email submitted:", email);
-    // Add your email submission logic here (e.g., sending it to an API)
+// const faqData: FAQItem[] = [
+//   { question: "How do I add a new question?", answer: "You can add a new question by editing the FAQ component." },
+//   { question: "Can I insert pictures in my FAQ?", answer: "Yes, you can insert pictures in your FAQ by embedding image tags in the answer." },
+//   { question: "Can I insert a video in my FAQ?", answer: "Yes, videos can also be embedded in the answer using the video tag or other media components." },
+//   { question: "How do I edit or remove the 'FAQ title'?", answer: "You can edit or remove the title by changing the header in the FAQ component." },
+// ];
+
+// const FAQ: React.FC = () => {
+//   const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+//   const toggleFAQ = (index: number) => {
+//     setActiveIndex(activeIndex === index ? null : index);
+//   };
+
+//   return (
+//     <div className="w-full max-w-3xl mx-auto mt-8 p-4">
+//       <h1 className="text-3xl font-bold mb-12 text-center ">Frequently Asked Questions</h1>
+//       {faqData.map((item, index) => (
+//         <div key={index} className="mb-3">
+//           <div 
+//             className="flex justify-between items-center bg-gray-100 py- pr-6 rounded-lg cursor-pointer" 
+//             onClick={() => toggleFAQ(index)}
+//           >
+//             <div className="flex items-center space-x-3">
+//               <span className="bg-[#589142] text-white text-3xl font-semibold w-20 h-16 flex justify-center items-center ">
+//                 {index + 1}
+//               </span>
+//               <span className="font-medium text-lg">{item.question}</span>
+//             </div>
+//             <span>{activeIndex === index ? '-' : '+'}</span>
+//           </div>
+//           {activeIndex === index && (
+//             <div className="mt-2 px-10 py-4 bg-gray-50 border-l-4 border-[#589142]">
+//               {item.answer}
+//             </div>
+//           )}
+//         </div>
+//       ))}
+//     </div>
+//   );
+// };
+
+// export default FAQ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+"use client"
+
+import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleChevronDown, faCircleChevronUp } from '@fortawesome/free-solid-svg-icons';
+
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+const faqData: FAQItem[] = [
+  { question: "How do I add a new question?", answer: "You can add a new question by editing the FAQ component." },
+  { question: "Can I insert pictures in my FAQ?", answer: "Yes, you can insert pictures in your FAQ by embedding image tags in the answer." },
+  { question: "Can I insert a video in my FAQ?", answer: "Yes, videos can also be embedded in the answer using the video tag or other media components." },
+  { question: "How do I edit or remove the 'FAQ title'?", answer: "You can edit or remove the title by changing the header in the FAQ component." },
+];
+
+const FAQ: React.FC = () => {
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  const toggleFAQ = (index: number) => {
+    setActiveIndex(activeIndex === index ? null : index);
   };
 
   return (
-    <section className="bg-white cta">
-      <div className="w-full">
-        <div className="max-w-screen-xl mx-auto p-4">
-          <div
-            className="grid grid-cols-12 gap-4 cta-banner items-center bg-cover bg-no-repeat bg-center rounded"
-            style={{ backgroundImage: "url(/images/cta_banner.png)", height: "60vh" }}
+    <div className="w-full max-w-3xl mx-auto mt-8 p-4">
+      <h1 className="text-3xl font-bold mb-12 text-center">Frequently Asked Questions</h1>
+      {faqData.map((item, index) => (
+        <div key={index} className="mb-3">
+          <div 
+            className="flex justify-between items-center bg-gray-100 py- pr-6 rounded-lg cursor-pointer" 
+            onClick={() => toggleFAQ(index)}
           >
-            <div className="col-span-12 md:col-span-6 cta-title">
-              <h1 className="text-5xl md:text-5xl font-bold text-white text-center">
-                GET UPDATES <br /> & RESOURCES
-              </h1>
+            <div className="flex items-center space-x-3">
+              <span className="bg-[#589142] text-white text-3xl font-semibold w-20 h-16 flex justify-center items-center">
+                {index + 1}
+              </span>
+              <span className="font-medium text-lg">{item.question}</span>
             </div>
-            <div className="col-span-12 md:col-span-6 cta-form md:flex md:flex-col md:justify-center md:items-center">
-              <div className="text-center md:text-left">
-                <input
-                  type="email"
-                  id="default-search"
-                  className="w-80 rounded-full py-4 px-4 text-sm focus:outline-none border"
-                  placeholder="Enter your Email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-                <br />
-                <button
-                  className="bg-white text-black py-3 px-6 rounded-full mt-4"
-                  onClick={handleEmailSubmit}
-                >
-                  Join List
-                </button>
-              </div>
-            </div>
+            <span>
+              {activeIndex === index ? (
+                <FontAwesomeIcon icon={faCircleChevronUp} className="text-[#589142] rounded-full text-2xl" />
+              ) : (
+                <FontAwesomeIcon icon={faCircleChevronDown} className="text-[#589142] text-2xl" />
+              )}
+            </span>
           </div>
+          {activeIndex === index && (
+            <div className="mt-2 px-10 py-4 bg-gray-50 border-l-4 border-[#589142]">
+              {item.answer}
+            </div>
+          )}
         </div>
-      </div>
-      <img src="/images/utils/cta_left.png" className="cta_left" />
-      <img src="/images/utils/cta_right.png" className="cta_right" />
-    </section>
+      ))}
+    </div>
   );
 };
 
-export default Faq;
+export default FAQ;

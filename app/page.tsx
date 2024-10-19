@@ -9,7 +9,8 @@ import  Calendar  from './components/Calendar';
 import ConsultationForm from './components/ConsultationForm';
 import Resours from './components/Resours';
 import Test from './components/Test';
-// import {Faq} from './components/Faq';
+import Faq from './components/Faq';
+import Faq2 from './components/Faq2';
 
 
 export default function HomePage() {
@@ -25,6 +26,8 @@ export default function HomePage() {
     <Calendar/>
     <Resours/>
     {/* <Faq  /> */}
+    <Faq2/>
+    {/* <Faqtest/> */}
     {/* <Consultation/> */}
     {/* <CTABanner/> */}
     <Test/>
