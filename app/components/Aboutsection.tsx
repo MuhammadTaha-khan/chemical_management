@@ -20,7 +20,7 @@ const Aboutsection: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="bg-[#2e9406] flex items-center justify-center  p-4 rounded-full " >
+                <span className="bg-[#589142] flex items-center justify-center  p-4 px-5 rounded-full " >
                 <span className="text-center flex items-center justify-center " >
                 {/* <FaPlay className="text-4xl text-white text-center" /> */}
                 <i className="fas fa-play text-4xl text-white text-center"></i>
@@ -32,10 +32,10 @@ const Aboutsection: React.FC = () => {
 
             <div className="about-content mb-8 lg:ml-16">
               <div className="tp-section">
-                <span className="tp-section__sub-title left-line mb-6 block font-semibold text-[#589142]">
+                {/* <span className="tp-section__sub-title left-line mb-6 block font-semibold text-[#589142]">
                   __ About Us
-                </span>
-                <h3 className="tp-section__title mb-12 font-bold text-3xl md:text-4xl lg:text-5xl leading-snug text-[#589142]">
+                </span> */}
+                <h3 className="tp-section__title mb-12 font-bold text-3xl md:text-4xl lg:text-5xl leading-7 text-[#589142]">
                   Best Laboratory For Testing And Research
                 </h3>
                 <i className="block text-base md:text-lg text-gray-700 mb-6">
