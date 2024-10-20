@@ -56,17 +56,17 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="bg-white p-2 rounded-lg shadow-lg flex flex-col items-center space-y-8 md:space-y-0 md:flex-row mt-32">
-        <div className="w-full md:w-1/2 p-5">
+    <div className="min-h-screen bg-[#589142]   flex items-center justify-center">
+      <div className="bg-white p-2 md:w-3/4 rounded-lg shadow-lg flex flex-col items-center space-y-8 md:space-y-0 md:flex-row mt-28 mb-28 lg:gap-12">
+        <div className="w-full md:w-1/2  p-5 ">
           <h2 className="text-2xl text-[#589142] font-semibold mb-5">
             Select Date and Time
           </h2>
           {/* Calendar Section */}
-          <div className="bg-white rounded-lg shadow-md p-4 max-w-full md:max-w-lg mx-auto">
-            <div className="flex justify-between items-center">
+          <div className="bg-white rounded-lg  p-4 max-w-full md:max-w-lg mx-auto ">
+            <div className="flex justify-between items-center px-4">
               <button
-                className="text-gray-500 hover:text-gray-700"
+                className="text-gray-500 hover:text-gray-700 text-2xl font-bold"
                 onClick={handlePrevMonth}
               >
                 &#60;
@@ -75,14 +75,14 @@ export default function Home() {
                 {monthNames[month]} {year}
               </span>
               <button
-                className="text-gray-500 hover:text-gray-700"
+                className="text-gray-500 hover:text-gray-700 text-2xl font-bold"
                 onClick={handleNextMonth}
               >
                 &#62;
               </button>
             </div>
 
-            <div className="grid grid-cols-7 text-center mt-4 text-gray-500 gap-4 md:gap-6">
+            <div className="grid grid-cols-7 text-center mt-4 text-gray-500 gap-4 md:gap-3">
               {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((day) => (
                 <span key={day} className="font-semibold text-sm md:text-base">
                   {day}
@@ -131,7 +131,7 @@ export default function Home() {
               Jessica Gabbi
             </p>
           </div>
-          <p className="text-3xl font-bold text-gray-500 mb-6 leading-normal">
+          <p className="text-3xl lg:text-4xl font-bold text-gray-500 mb-6 leading-normal">
             Free Business Coaching <br />
             Consultation with jessica gabbi
           </p>
@@ -157,12 +157,14 @@ export default function Home() {
                 required
               />
             </div>
-            <button
+              <div className="flex justify-center">
+              <button
               type="submit"
-              className="px-4 py-2 bg-[#589142] text-white rounded-3xl hover:bg-[#589142] transition w-full"
+              className="inline-block px-4 py-2 bg-[#589142] text-white rounded-3xl hover:bg-[#589142] transition "
             >
               Get a Free Consultation
             </button>
+              </div>
           </form>
         </div>
       </div>

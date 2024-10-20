@@ -8,15 +8,17 @@ import  Calendar  from './components/Calendar';
 // import { CTABanner } from './components/CTABanner';
 import ConsultationForm from './components/ConsultationForm';
 import Resours from './components/Resours';
-import Test from './components/Test';
-// import Faq from './components/Faq';
-import Faq2 from './components/Faq2';
+// import Test from './components/Test';
+import Faq from './components/Faq';
+// import Contact from './components/Contact';
+// import Faq2 from './components/Faq2';
 
 
 export default function HomePage() {
   return (
    <div>
     <Navbar/>
+    {/* <Contact/> */}
     <Slider/>
     <Healthcare/>
     <Services/>
@@ -25,12 +27,12 @@ export default function HomePage() {
     {/* <Consultation/> */}
     <Calendar/>
     <Resours/>
-    {/* <Faq  /> */}
-    <Faq2/>
+    <Faq  />
+    {/* <Faq2/> */}
     {/* <Faqtest/> */}
     {/* <Consultation/> */}
     {/* <CTABanner/> */}
-    <Test/>
+    {/* <Test/> */}
    </div>
   );
 }

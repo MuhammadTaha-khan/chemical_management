@@ -93,6 +93,11 @@ const Navbar: React.FC = () => {
                 Contact Me
               </Link>
             </li>
+            <li>
+            <Link href="/Faq" className="block py-2 px-3 rounded text-black lg:bg-transparent lg:p-0 dark:text-white">
+                FAQ
+              </Link>
+            </li>
 
             {/* This section will be visible in the mobile menu */}
             <li className="lg:hidden">

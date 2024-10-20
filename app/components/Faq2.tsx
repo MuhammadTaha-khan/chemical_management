@@ -19,7 +19,7 @@ const Faq2: React.FC = () => {
   <section >
     {/* <div className="max-w-screen-xl px-4 mx-auto">
       <div className="flex flex-col lg:flex-row"> */}
-        <div className="w-full max-w-3xl mx-auto mt-8 p-4">
+        <div className="w-full max-w-3xl mx-auto mt-32 p-4 ">
           <h1 className="text-3xl font-bold mb-12 text-center">
             Frequently Asked Questions
           </h1>

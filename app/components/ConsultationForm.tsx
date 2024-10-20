@@ -16,19 +16,20 @@ export default function ConsultationForm() {
       className="flex flex-col lg:flex-row items-center justify-between p-8 lg:p-16 bg-cover bg-center"
       style={{
         backgroundImage:
-          'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4HfTn8faFnMhRZEN45lGuvk6IjX-jiUKf6w&s")',
+          'url("/carousel1.jpg")',
         minHeight: "100vh",
       }}
     >
       {/* Left Section (Text + Form) */}
-      <div className="w-full lg:w-1/2 bg-[#589142] p-6 rounded-3xl">
+      <div className="w-full lg:w-1/2 bg-white p-6 rounded-3xl">
         <h1 className="text-3xl lg:text-4xl font-bold mb-6">
           For Free Consultation and to download the steps
-          <span className="text-white leading-snug">
+          {/* <span className="text-white leading-snug "> */}
+          <span className="text-gray-400 leading-snug ">
             10 steps to do annual chemical inventory
           </span>
         </h1>
-        <p className="text-gray-300 mb-8">
+        <p className="text-gray-500 mb-8">
           Once you submit your email we will display the image with the steps.
         </p>
 
@@ -65,16 +66,16 @@ export default function ConsultationForm() {
           <Image
             src="/consform.jpeg" // Path from the public directory
             alt="10 Steps to do annual chemical inventory"
-            height={600}
-            width={600}
-            className="rounded-lg object-contain"
+            height={590}
+            width={501}
+            className="rounded-lg object-contain max-"
           />
         ) : (
           <Image
             src="/consform.jpg"
             alt="10 Steps Preview"
-            height={600}
-            width={400}
+            height={590}
+            width={501}
             className="rounded-lg object-cover"
           />
         )}
