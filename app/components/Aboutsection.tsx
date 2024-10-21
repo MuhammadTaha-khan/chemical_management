@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import { FaPlay } from 'react-icons/fa';
 // hover:bg-[#428628]
 const Aboutsection: React.FC = () => {
   return (
