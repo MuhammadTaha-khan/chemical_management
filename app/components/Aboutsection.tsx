@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 // import { FaPlay } from 'react-icons/fa';
+// hover:bg-[#428628]
 const Aboutsection: React.FC = () => {
   return (
     <section className="about-area grey-bg max-sm:mt-96 max-lg:mt-32  pt-6 pb-16 sm:pb-24 md:pb-32 mx-4 md:mx-8 lg:mx-16 lg:mt-0">
@@ -15,8 +16,8 @@ const Aboutsection: React.FC = () => {
                 width={540}  // Specify the width in pixels
               />
               <a
-                className="popup-video  absolute inset-0 flex justify-center items-center"
-                href="https://www.youtube.com/watch?v=-BpXNPHiB2U"
+                className="popup-video absolute inset-0 flex justify-center items-center"
+                href="/k12chemical.mp4"
                 target="_blank"
                 rel="noopener noreferrer"
               >

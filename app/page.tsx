@@ -10,6 +10,7 @@ import ConsultationForm from './components/ConsultationForm';
 import Resours from './components/Resours';
 // import Test from './components/Test';
 import Faq from './components/Faq';
+import Footer from './components/Footer';
 // import Contact from './components/Contact';
 // import Faq2 from './components/Faq2';
 
@@ -22,17 +23,18 @@ export default function HomePage() {
     <Slider/>
     <Healthcare/>
     <Services/>
+    <Faq  />
     <Aboutsection/>
     <ConsultationForm/>
     {/* <Consultation/> */}
     <Calendar/>
     <Resours/>
-    <Faq  />
     {/* <Faq2/> */}
     {/* <Faqtest/> */}
     {/* <Consultation/> */}
     {/* <CTABanner/> */}
     {/* <Test/> */}
+    <Footer/>
    </div>
   );
 }

@@ -12,7 +12,7 @@ export default function ConsultationForm() {
   };
 
   return (
-    <section
+    <section id="consultation-form"
       className="flex flex-col lg:flex-row items-center justify-between p-8 lg:p-16 bg-cover bg-center"
       style={{
         backgroundImage:
@@ -44,11 +44,11 @@ export default function ConsultationForm() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
-              className="w-full sm:w-2/3 p-3 border rounded-full focus:outline-none focus:border-green-500"
+              className="w-full sm:w-2/3 p-3 border-2 rounded-full focus:outline-none focus:border-green-500"
             />
             <button
               type="submit"
-              className="w-full sm:w-1/3 p-3 bg-green-500 hover:bg-green-600 text-white rounded-full"
+              className="w-full sm:w-1/3 p-3 bg-[#589142] hover:bg-[#428628] text-white rounded-full"
             >
               Submit
             </button>

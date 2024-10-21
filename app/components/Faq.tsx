@@ -25,7 +25,7 @@ const FAQ: React.FC = () => {
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto mt-8 p-4">
+    <div className="w-full max-w-3xl mx-auto mb-10 p-4">
       <h1 className="text-3xl font-bold mb-12 text-center">Frequently Asked Questions</h1>
       {faqData.map((item, index) => (
         <div key={index} className="mb-3">
@@ -55,7 +55,7 @@ const FAQ: React.FC = () => {
         </div>
       ))}
       <div className='flex  justify-center items-center pt-10 pb-10 '>
-      <Link href="/Faq" className='inline-block bg-[#589142] py-4 px-8 rounded-md'>
+      <Link href="/Faq" className='inline-block bg-[#589142] py-4 px-8 rounded-md text-white'>
         Read More
       </Link>
       </div>
