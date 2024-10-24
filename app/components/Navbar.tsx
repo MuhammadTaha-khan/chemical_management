@@ -83,11 +83,11 @@ const Navbar: React.FC = () => {
                 Home
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/about" className="block py-2 px-3 rounded text-black lg:bg-transparent lg:p-0 dark:text-white">
                 About
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/contact" className="block py-2 px-3 rounded text-black lg:bg-transparent lg:p-0 dark:text-white">
                 Contact Me

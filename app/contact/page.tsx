@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const EmailSignup: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ const EmailSignup: React.FC = () => {
       <div className="bg-[#589142] flex justify-center mb-10">
         {/* Contact Info Section */}
         <div className="h-35 bg-[#589142] w-full flex md:flex-row flex-col gap-10 justify-between items-center text-2xl px-8 text-white max-w-4xl">
-          <div className="flex flex-col justify-center items-center gap-2 p-2">
+          <div className="flex flex-col justify-center items-center gap-2 p-2 pt-5">
             <FontAwesomeIcon icon={faPhone} />
             <h1 className="font-semibold">Call Now</h1>
             <p className="text-sm">+(92)-456-789</p>
@@ -81,6 +82,7 @@ const EmailSignup: React.FC = () => {
         </button>
       </form>
     </div>
+    <Footer/>
     </>
   );
 };

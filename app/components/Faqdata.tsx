@@ -1,6 +1,7 @@
 // FaqData.ts
 
 export const faqData = [
+  // ----------------------------------------Question 01-------------------------------------------------------
   {
     title: "What are the steps for doing the annual chemical inventory?",
     header: "",
@@ -81,6 +82,7 @@ export const faqData = [
       },
     ],
   },
+  // ----------------------------------------Question 02-------------------------------------------------------
   {
     title:
       "What can school districts do to minimize hazardous chemical accidents?",
@@ -169,217 +171,270 @@ export const faqData = [
       },
     ],
   },
+  // ----------------------------------------Question 03-------------------------------------------------------
   {
-    title:
-      "How can school districts be compliant with EPA, OSHA, DOT and regional regulations?",
-    header:
-      "To ensure compliance with regulations from the Environmental Protection Agency (EPA), Occupational Safety and Health Administration (OSHA), Department of Transportation (DOT), and regional authorities, school districts can take several steps:",
-    footer:
-      "By following these steps, school districts can demonstrate a commitment to compliance with EPA, OSHA, DOT, and regional regulations while fostering a safe and healthy learning environment for students, staff, and visitors.",
+    title: "How can school districts be compliant with EPA, OSHA, DOT, and regional regulations?",
+    header: "",
+    footer: "",
     list: [
       {
-        heading:
-          "<span class='font-bold'>Stay Informed:</span><span class='font-medium ml-1'>Regularly monitor updates and changes to regulations issued by EPA, OSHA, DOT, and relevant regional authorities that pertain to chemical safety, transportation, storage, and disposal.</span>",
-        list: [],
+        heading: "Stay Informed:",
+        list: [
+          "Regularly monitor updates and changes to regulations issued by EPA, OSHA, DOT, and relevant regional authorities that pertain to chemical safety, transportation, storage, and disposal."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Designate Compliance Officers:</span><span class='font-medium ml-1'>Assign qualified personnel within the school district to oversee compliance with EPA, OSHA, DOT, and regional regulations. Provide them with the necessary resources and authority to carry out their responsibilities effectively.</span>",
-        list: [],
+        heading: "Designate Compliance Officers:",
+        list: [
+          "Assign qualified personnel within the school district to oversee compliance with EPA, OSHA, DOT, and regional regulations.",
+          "Provide them with the necessary resources and authority to carry out their responsibilities effectively."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Conduct Audits and Assessments:</span><span class='font-medium ml-1'>Perform regular audits and assessments of school facilities and operations to identify any areas where compliance may be lacking. Address any deficiencies promptly and implement corrective actions as needed.</span>",
-        list: [],
+        heading: "Conduct Audits and Assessments:",
+        list: [
+          "Perform regular audits and assessments of school facilities and operations to identify any areas where compliance may be lacking.",
+          "Address any deficiencies promptly and implement corrective actions as needed."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Training and Education:</span><span class='font-medium ml-1'>Provide comprehensive training for staff, teachers, and administrators on relevant EPA, OSHA, DOT, and regional regulations. Ensure that personnel understand their responsibilities and the specific requirements related to chemical safety, transportation, and compliance.</span>",
-        list: [],
+        heading: "Training and Education:",
+        list: [
+          "Provide comprehensive training for staff, teachers, and administrators on relevant EPA, OSHA, DOT, and regional regulations.",
+          "Ensure that personnel understand their responsibilities and the specific requirements related to chemical safety, transportation, and compliance."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Chemical Management:</span><span class='font-medium ml-1'>Develop and implement robust chemical management protocols that align with EPA regulations for hazardous waste management, OSHA standards for chemical safety, and DOT requirements for the transportation of hazardous materials.</span>",
-        list: [],
+        heading: "Chemical Management:",
+        list: [
+          "Develop and implement robust chemical management protocols that align with EPA regulations for hazardous waste management.",
+          "Ensure compliance with OSHA standards for chemical safety and DOT requirements for the transportation of hazardous materials."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Safety Data Sheets (SDS) Management:</span><span class='font-medium ml-1'>Maintain an organized system for managing safety data sheets (SDS) for all chemicals used in school facilities. Ensure that SDS are readily accessible to staff and are kept up to date in compliance with OSHA regulations.</span>",
-        list: [],
+        heading: "Safety Data Sheets (SDS) Management:",
+        list: [
+          "Maintain an organized system for managing safety data sheets (SDS) for all chemicals used in school facilities.",
+          "Ensure that SDS are readily accessible to staff and are kept up to date in compliance with OSHA regulations."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Emergency Response Planning:</span><span class='font-medium ml-1'>Develop comprehensive emergency response plans that address potential chemical incidents, spills, and releases in accordance with EPA, OSHA, DOT, and regional requirements. Conduct drills and training exercises to ensure that staff are prepared to respond effectively to emergencies.</span>",
-        list: [],
+        heading: "Emergency Response Planning:",
+        list: [
+          "Develop comprehensive emergency response plans for potential chemical incidents, spills, and releases.",
+          "Conduct drills and training exercises to ensure that staff are prepared to respond effectively to emergencies."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Record keeping and Documentation:</span><span class='font-medium ml-1'>Keep detailed records of compliance activities, training sessions, audits, assessments, and any incidents or accidents related to chemical safety. Ensure that documentation is accurate, up to date, and easily accessible for regulatory inspections.</span>",
-        list: [],
+        heading: "Record Keeping and Documentation:",
+        list: [
+          "Keep detailed records of compliance activities, training sessions, audits, assessments, and any incidents or accidents related to chemical safety.",
+          "Ensure that documentation is accurate, up to date, and easily accessible for regulatory inspections."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Engage with Regulatory Agencies:</span><span class='font-medium ml-1'>Establish open lines of communication with EPA, OSHA, DOT, and regional regulatory agencies. Seek guidance and clarification on regulatory requirements as needed and proactively address any compliance issues that arise.</span>",
-        list: [],
+        heading: "Engage with Regulatory Agencies:",
+        list: [
+          "Establish open lines of communication with EPA, OSHA, DOT, and regional regulatory agencies.",
+          "Seek guidance and clarification on regulatory requirements and proactively address any compliance issues that arise."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Continuous Improvement:</span><span class='font-medium ml-1'>Regularly review and update policies, procedures, and practices to ensure ongoing compliance with EPA, OSHA, DOT, and regional regulations. Incorporate lessons learned from audits, assessments, and incidents to improve chemical safety and compliance measures.</span>",
-        list: [],
+        heading: "Continuous Improvement:",
+        list: [
+          "Regularly review and update policies, procedures, and practices to ensure ongoing compliance with EPA, OSHA, DOT, and regional regulations.",
+          "Incorporate lessons learned from audits, assessments, and incidents to improve chemical safety and compliance measures."
+        ],
       },
     ],
   },
-  {
-    title:
-      "What is a Chemical Hygiene Plan (CHP) and why is it important for schools and science classroom?",
-    header:
-      "The Chemical Hygiene Plan (CHP) is a crucial document designed to ensure the safe handling, use, and disposal of chemicals in laboratory settings like schools and science classrooms. It outlines safety procedures, protocols, and practices related to chemicals. Here's why it's important:",
-    footer:
-      "In summary, the Chemical Hygiene Plan is essential for schools and science classrooms to promote safety, protect health, comply with regulations, manage risks, and create a conducive learning environment.",
-    list: [
-      {
-        heading:
-          "<span class='font-bold'>Safety:</span><span class='font-medium ml-1'>The CHP promotes safety by minimizing the risk of accidents, spills, exposures, and injuries associated with chemical use.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Hazards:</span><span class='font-medium ml-1'>It addresses the recognition and management of chemical hazards, ensuring that students and teachers understand the risks involved.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Health Protection:</span><span class='font-medium ml-1'>The plan provides guidelines for using personal protective equipment (PPE) like gloves and goggles to protect against chemical exposure and adverse health effects.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Regulations:</span><span class='font-medium ml-1'>Many jurisdictions mandate schools to have a Chemical Hygiene Plan to comply with occupational health and safety regulations.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Compliance:</span><span class='font-medium ml-1'>Implementing a CHP ensures adherence to relevant standards and regulations, thereby reducing legal liability.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Risk Management:</span><span class='font-medium ml-1'>By identifying potential hazards and establishing procedures for emergency response, the CHP helps schools manage risks effectively.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Educational Environment:</span><span class='font-medium ml-1'>It fosters a culture of safety and responsibility in the science classroom, educating students on proper chemical handling for their future endeavors.</span>",
-        list: [],
-      },
-    ],
-  },
-  {
-    title: "How do you develop a Chemical Hygiene Plan (CHP)?",
-    header:
-      "Developing a Chemical Hygiene Plan (CHP) involves several key steps to ensure comprehensive coverage of safety procedures and protocols for handling chemicals in laboratory settings like schools and science classrooms. Here's a general outline of how to develop a CHP:",
-    footer:
-      "By following these steps, schools and science classrooms can develop a robust Chemical Hygiene Plan that promotes safety, protects health, and ensures compliance with relevant regulations and standards.",
-    list: [
-      {
-        heading:
-          "<span class='font-bold'>Gather Information:</span><span class='font-medium ml-1'>Collect relevant information about the chemicals used in the laboratory, including their properties, hazards, and safe handling procedures. This may involve consulting safety data sheets (SDS) provided by chemical manufacturers.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Identify Hazards:</span><span class='font-medium ml-1'>Conduct a thorough assessment of potential hazards associated with the chemicals used in the laboratory. Consider factors such as toxicity, flammability, reactivity, and physical hazards.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Establish Safety Procedures:</span><span class='font-medium ml-1'>Develop detailed safety procedures and protocols for handling, storing, and disposing of chemicals safely. Include guidelines for personal protective equipment (PPE) usage, chemical storage, spill response, and emergency procedures.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Outline Training Requirements:</span><span class='font-medium ml-1'>Determine the training requirements for laboratory personnel, including teachers and students. Provide regular safety training sessions covering hazard recognition, risk assessment, proper equipment usage, emergency procedures, and chemical handling.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Ensure Accessibility:</span><span class='font-medium ml-1'>Ensure that the Chemical Hygiene Plan is readily accessible to all laboratory personnel. Make sure that everyone working in the laboratory is trained on the contents and procedures outlined in the CHP.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Review and Update:</span><span class='font-medium ml-1'>Regularly review and update the Chemical Hygiene Plan to reflect changes in safety standards, regulations, or laboratory requirements. Stay informed about current safety regulations, guidelines, and best practices relevant to science education.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Implement and Enforce:</span><span class='font-medium ml-1'>Implement the Chemical Hygiene Plan and enforce adherence to its procedures and protocols. Foster a culture of safety by encouraging open communication, collaboration, and accountability among laboratory personnel.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Monitor and Evaluate:</span><span class='font-medium ml-1'>Monitor the effectiveness of the CHP through regular safety inspections, incident reporting, and feedback from laboratory personnel. Evaluate the plan periodically to identify areas for improvement and make necessary revisions.</span>",
-        list: [],
-      },
-    ],
-  },
-  {
-    title:
-      "How long does it take to write a Chemical Hygiene Plan (CHP) and who is involved?",
-    header:
-      "The time required to write a Chemical Hygiene Plan (CHP) can vary depending on the size of the laboratory, the complexity of the procedures involved, and the level of detail desired. Generally, developing a comprehensive CHP may take several weeks to a few months. The process typically involves the following steps and may require collaboration among various stakeholders:",
-    additionalInfo: {
-      header:
-        "The individuals involved in developing a Chemical Hygiene Plan typically include:",
+// --------------------------------------------------------------------------  question 04---------------------
+{
+  title: "What is a Chemical Hygiene Plan (CHP) and why is it important for schools and science classrooms?",
+  header: "",
+  footer: "",
+  list: [
+    {
+      heading: "Safety:",
       list: [
-        "Laboratory supervisors or managers",
-        "Safety officers or coordinators",
-        "Laboratory personnel (chemists, technicians, researchers)",
-        "Environmental health and safety professionals",
-        "Regulatory compliance experts",
-        "Management representatives",
+        "The CHP promotes safety by minimizing the risk of accidents, spills, exposures, and injuries associated with chemical use."
       ],
     },
-    footer:
-      "By involving key stakeholders throughout the process, schools and laboratories can develop a robust Chemical Hygiene Plan that promotes a culture of safety and compliance with regulatory requirements.",
+    {
+      heading: "Hazards:",
+      list: [
+        "It addresses the recognition and management of chemical hazards, ensuring that students and teachers understand the risks involved."
+      ],
+    },
+    {
+      heading: "Health Protection:",
+      list: [
+        "The plan provides guidelines for using personal protective equipment (PPE) like gloves and goggles to protect against chemical exposure and adverse health effects."
+      ],
+    },
+    {
+      heading: "Regulations:",
+      list: [
+        "Many jurisdictions mandate schools to have a Chemical Hygiene Plan to comply with occupational health and safety regulations."
+      ],
+    },
+    {
+      heading: "Compliance:",
+      list: [
+        "Implementing a CHP ensures adherence to relevant standards and regulations, thereby reducing legal liability."
+      ],
+    },
+    {
+      heading: "Risk Management:",
+      list: [
+        "By identifying potential hazards and establishing procedures for emergency response, the CHP helps schools manage risks effectively."
+      ],
+    },
+    {
+      heading: "Educational Environment:",
+      list: [
+        "It fosters a culture of safety and responsibility in the science classroom, educating students on proper chemical handling for their future endeavors."
+      ],
+    },
+  ],
+},
+
+// --------------------------------------------------------------------------  question 05---------------------
+  
+{
+  title: "How do you develop a Chemical Hygiene Plan (CHP)?",
+  header: "",
+  footer: "",
+  list: [
+    {
+      heading: "Gather Information:",
+      list: [
+        "Collect relevant information about the chemicals used in the laboratory, including their properties, hazards, and safe handling procedures.",
+        "This may involve consulting safety data sheets (SDS) provided by chemical manufacturers."
+      ],
+    },
+    {
+      heading: "Identify Hazards:",
+      list: [
+        "Conduct a thorough assessment of potential hazards associated with the chemicals used in the laboratory.",
+        "Consider factors such as toxicity, flammability, reactivity, and physical hazards."
+      ],
+    },
+    {
+      heading: "Establish Safety Procedures:",
+      list: [
+        "Develop detailed safety procedures and protocols for handling, storing, and disposing of chemicals safely.",
+        "Include guidelines for personal protective equipment (PPE) usage, chemical storage, spill response, and emergency procedures."
+      ],
+    },
+    {
+      heading: "Outline Training Requirements:",
+      list: [
+        "Determine the training requirements for laboratory personnel, including teachers and students.",
+        "Provide regular safety training sessions covering hazard recognition, risk assessment, proper equipment usage, emergency procedures, and chemical handling."
+      ],
+    },
+    {
+      heading: "Ensure Accessibility:",
+      list: [
+        "Ensure that the Chemical Hygiene Plan is readily accessible to all laboratory personnel.",
+        "Make sure that everyone working in the laboratory is trained on the contents and procedures outlined in the CHP."
+      ],
+    },
+    {
+      heading: "Review and Update:",
+      list: [
+        "Regularly review and update the Chemical Hygiene Plan to reflect changes in safety standards, regulations, or laboratory requirements.",
+        "Stay informed about current safety regulations, guidelines, and best practices relevant to science education."
+      ],
+    },
+    {
+      heading: "Implement and Enforce:",
+      list: [
+        "Implement the Chemical Hygiene Plan and enforce adherence to its procedures and protocols.",
+        "Foster a culture of safety by encouraging open communication, collaboration, and accountability among laboratory personnel."
+      ],
+    },
+    {
+      heading: "Monitor and Evaluate:",
+      list: [
+        "Monitor the effectiveness of the CHP through regular safety inspections, incident reporting, and feedback from laboratory personnel.",
+        "Evaluate the plan periodically to identify areas for improvement and make necessary revisions."
+      ],
+    },
+  ],
+},
+
+  // --------------------------------------------------------------------------  question 06---------------------
+ {
+    title: "How long does it take to write a Chemical Hygiene Plan (CHP) and who is involved?",
+    header: "",
+    footer: "",
     list: [
       {
-        heading:
-          "<span class='font-bold'>Initial Planning:</span><span class='font-medium ml-1'>This phase involves gathering information about the laboratory's activities, chemicals used, and existing safety protocols. Key stakeholders, such as laboratory supervisors, safety officers, and chemical users, should be identified during this stage.</span>",
-        list: [],
+        heading: "Initial Planning:",
+        list: [
+          "This phase involves gathering information about the laboratory's activities, chemicals used, and existing safety protocols.",
+          "Key stakeholders, such as laboratory supervisors, safety officers, and chemical users, should be identified during this stage."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Risk Assessment:</span><span class='font-medium ml-1'>Conducting a thorough risk assessment to identify potential hazards associated with the laboratory's activities and chemicals. This step may involve input from laboratory personnel, safety experts, and relevant regulatory authorities.</span>",
-        list: [],
+        heading: "Risk Assessment:",
+        list: [
+          "Conducting a thorough risk assessment to identify potential hazards associated with the laboratory's activities and chemicals.",
+          "This step may involve input from laboratory personnel, safety experts, and relevant regulatory authorities."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Drafting the CHP:</span><span class='font-medium ml-1'>Writing the Chemical Hygiene Plan, including safety procedures, protocols, and training requirements. This task may be assigned to a designated safety officer or a team of experts familiar with laboratory safety practices.</span>",
-        list: [],
+        heading: "Drafting the CHP:",
+        list: [
+          "Writing the Chemical Hygiene Plan, including safety procedures, protocols, and training requirements.",
+          "This task may be assigned to a designated safety officer or a team of experts familiar with laboratory safety practices."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Review and Approval:</span><span class='font-medium ml-1'>Reviewing the draft CHP with relevant stakeholders, including laboratory personnel, management, and safety committees. Incorporating feedback and revisions as needed to ensure the plan meets regulatory requirements and addresses specific laboratory needs.</span>",
-        list: [],
+        heading: "Review and Approval:",
+        list: [
+          "Reviewing the draft CHP with relevant stakeholders, including laboratory personnel, management, and safety committees.",
+          "Incorporating feedback and revisions as needed to ensure the plan meets regulatory requirements and addresses specific laboratory needs."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Training:</span><span class='font-medium ml-1'>Providing training to laboratory personnel on the contents and procedures outlined in the CHP. This may involve conducting safety orientation sessions, workshops, or online training modules.</span>",
-        list: [],
+        heading: "Training:",
+        list: [
+          "Providing training to laboratory personnel on the contents and procedures outlined in the CHP.",
+          "This may involve conducting safety orientation sessions, workshops, or online training modules."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Implementation:</span><span class='font-medium ml-1'>Rolling out the finalized CHP and ensuring that all laboratory personnel are familiar with its contents and procedures. This may require ongoing communication, monitoring, and reinforcement of safety practices.</span>",
-        list: [],
+        heading: "Implementation:",
+        list: [
+          "Rolling out the finalized CHP and ensuring that all laboratory personnel are familiar with its contents and procedures.",
+          "This may require ongoing communication, monitoring, and reinforcement of safety practices."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Periodic Review and Updates:</span><span class='font-medium ml-1'>Regularly reviewing and updating the CHP to reflect changes in laboratory activities, regulations, or best practices. This ensures that the plan remains relevant and effective in addressing emerging safety concerns.</span>",
-        list: [],
+        heading: "Periodic Review and Updates:",
+        list: [
+          "Regularly reviewing and updating the CHP to reflect changes in laboratory activities, regulations, or best practices.",
+          "This ensures that the plan remains relevant and effective in addressing emerging safety concerns."
+        ],
+      },
+      {
+        heading: "Who is involved?",
+        list: [
+          "Laboratory supervisors or managers",
+          "Safety officers or coordinators",
+          "Laboratory personnel (chemists, technicians, researchers)",
+          "Environmental health and safety professionals",
+          "Regulatory compliance experts",
+          "Management representatives"
+        ],
       },
     ],
   },
+  
+  // --------------------------------------------------------------------------  question 07---------------------
   {
     title:
       "What are the 10 common safety issues in high school science classroom?",
@@ -460,6 +515,7 @@ export const faqData = [
       },
     ],
   },
+  // --------------------------------------------------------------------------  question 08---------------------
   {
     title:
       "What are ways to improve safety in the high school science classroom?",
@@ -526,6 +582,7 @@ export const faqData = [
       },
     ],
   },
+  // --------------------------------------------------------------------------  question 09---------------------
   {
     title:
       "What are Personal Protection Equipment (PPE) and what specifically are needed in the middle and high school classrooms?",
@@ -590,6 +647,7 @@ export const faqData = [
       },
     ],
   },
+  // --------------------------------------------------------------------------  question 10---------------------
   {
     title:
       "What are the 10 areas that should be covered in a comprehensive high school science training program?",
@@ -664,16 +722,15 @@ export const faqData = [
         ],
       },
       {
-        heading: "<span class='font-bold'>Continuous Improvement:</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Encouragement of ongoing communication, feedback, and collaboration to identify and address safety concerns, improve safety practices, and foster a culture of safety in the laboratory.</span>",
-        list: [],
+        heading: "Continuous Improvement:",
+        list: [
+          "Encouragement of ongoing communication, feedback, and collaboration to identify and address safety concerns, improve safety practices, and foster a culture of safety in the laboratory."
+        ],
       },
     ],
   },
+ 
+   // --------------------------------------------------------------------------  question 11---------------------
   {
     title:
       "What topics should be covered in a middle and high school science safety training program? ",
@@ -748,16 +805,13 @@ export const faqData = [
         ],
       },
       {
-        heading: "<span class='font-bold'>Continuous Improvement:</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Encouragement of ongoing communication, feedback, and collaboration to identify and address safety concerns, improve safety practices, and foster a culture of safety in the laboratory.</span>",
-        list: [],
+        heading: "Continuous Improvement:",
+        list: ["Encouragement of ongoing communication, feedback, and collaboration to identify and address safety concerns, improve safety practices, and foster a culture of safety in the laboratory."],
       },
     ],
   },
+
+   // --------------------------------------------------------------------------  question 12---------------------
   {
     title:
       "What are the steps involved in safety training for middle and high school science classroom?",
@@ -831,280 +885,343 @@ export const faqData = [
       },
     ],
   },
+   // --------------------------------------------------------------------------  question 13---------------------
   {
     title: "What is hazardous waste?",
-    header:
-      "Hazardous waste refers to any waste material that poses a substantial threat to human health or the environment due to its chemical, physical, or biological properties. These properties may include toxicity, corrosiveness, flammability, reactivity, or infectiousness. Hazardous waste can come from various sources, including industrial processes, manufacturing operations, healthcare facilities, laboratories, and households.<br/>Examples of hazardous waste include:",
-    footer:
-      "Proper management and disposal of hazardous waste are essential to prevent harm to human health and the environment. This typically involves identifying, segregating, storing, transporting, treating, and disposing of hazardous waste in accordance with applicable regulations and guidelines set forth by regulatory agencies such as the Environmental Protection Agency (EPA) in the United States.",
+    header: "",
+    footer: "",
     list: [
       {
-        heading:
-          "<span class='font-bold'>Chemical waste:</span><span class='font-medium ml-1'>Solvents, acids, bases, pesticides, and heavy metals such as lead, mercury, and cadmium.</span>",
-        list: [],
+        heading: "Definition:",
+        list: [
+          "Hazardous waste refers to any waste material that poses a substantial threat to human health or the environment due to its chemical, physical, or biological properties.",
+          "These properties may include toxicity, corrosiveness, flammability, reactivity, or infectiousness.",
+          "Hazardous waste can come from various sources, including industrial processes, manufacturing operations, healthcare facilities, laboratories, and households."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Biological waste:</span><span class='font-medium ml-1'>Used needles, syringes, cultures, and specimens containing infectious agents.</span>",
-        list: [],
+        heading: "Examples of hazardous waste:",
+        list: [
+          "Chemical waste: Solvents, acids, bases, pesticides, and heavy metals such as lead, mercury, and cadmium.",
+          "Biological waste: Used needles, syringes, cultures, and specimens containing infectious agents.",
+          "Radioactive waste: Materials contaminated with radioactive substances, such as nuclear fuel rods, laboratory equipment, and medical isotopes.",
+          "Flammable waste: Materials that can catch fire easily, such as gasoline, oil, paint thinners, and aerosol cans.",
+          "Corrosive waste: Substances that can cause damage to living tissues or materials, such as strong acids or alkalis.",
+          "Reactive waste: Materials that are unstable and can undergo violent chemical reactions, such as explosives or oxidizers."
+        ],
       },
       {
-        heading:
-          "<span class='font-bold'>Radioactive waste:</span><span class='font-medium ml-1'>Materials contaminated with radioactive substances, such as nuclear fuel rods, laboratory equipment, and medical isotopes.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Flammable waste:</span><span class='font-medium ml-1'>Materials that can catch fire easily, such as gasoline, oil, paint thinners, and aerosol cans.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Corrosive waste:</span><span class='font-medium ml-1'>Substances that can cause damage to living tissues or materials, such as strong acids or alkalis.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Reactive waste:</span><span class='font-medium ml-1'>Materials that are unstable and can undergo violent chemical reactions, such as explosives or oxidizers.</span>",
-        list: [],
+        heading: "Proper management and disposal:",
+        list: [
+          "Proper management and disposal of hazardous waste are essential to prevent harm to human health and the environment.",
+          "This typically involves identifying, segregating, storing, transporting, treating, and disposing of hazardous waste in accordance with applicable regulations and guidelines set forth by regulatory agencies such as the Environmental Protection Agency (EPA) in the United States."
+        ],
       },
     ],
   },
+   
+  // --------------------------------------------------------------------------  question 14---------------------
   {
-    title:
-      "Which school district departments are responsible for hazardous waste disposal?",
-    header:
-      "The responsibility for hazardous waste disposal within a school district typically falls under the purview of several departments, including:",
-    footer:
-      "Ultimately, the specific departments involved in hazardous waste disposal may vary depending on the organizational structure of the school district and the extent of its operations. Collaboration among these departments is essential to ensure effective management of hazardous waste and compliance with applicable regulations.",
+    title: "Which school district departments are responsible for hazardous waste disposal?",
+    header: "The responsibility for hazardous waste disposal within a school district typically falls under the purview of several departments, including:",
+    footer: "Ultimately, the specific departments involved in hazardous waste disposal may vary depending on the organizational structure of the school district and the extent of its operations. Collaboration among these departments is essential to ensure effective management of hazardous waste and compliance with applicable regulations.",
     list: [
       {
-        heading:
-          "<span class='font-bold'>Facilities Management:</span><span class='font-medium ml-1'>This department is often responsible for overseeing the physical infrastructure of school buildings, including waste management systems and facilities. They may coordinate with waste disposal contractors, ensure compliance with regulations, and manage waste collection and transportation logistics.</span>",
-        list: [],
+        heading: "Facilities Management:",
+        list: [
+          "This department is often responsible for overseeing the physical infrastructure of school buildings, including waste management systems and facilities. They may coordinate with waste disposal contractors, ensure compliance with regulations, and manage waste collection and transportation logistics."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Environmental Health and Safety (EHS) Department:</span><span class='font-medium ml-1'>This department focuses on promoting a safe and healthy environment within schools. They are responsible for developing and implementing safety protocols, including those related to hazardous waste disposal. EHS staff may conduct training sessions, perform safety audits, and ensure compliance with relevant regulations.</span>",
-        list: [],
+        heading: "Environmental Health and Safety (EHS) Department:",
+        list: [
+          "This department focuses on promoting a safe and healthy environment within schools.",
+          "They are responsible for developing and implementing safety protocols, including those related to hazardous waste disposal.",
+          "EHS staff may conduct training sessions, perform safety audits, and ensure compliance with relevant regulations."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Science or Laboratory Departments:</span><span class='font-medium ml-1'>In schools where laboratories are present, science or laboratory departments may have specific responsibilities related to hazardous waste disposal. They oversee the proper handling, storage, and disposal of chemicals and other hazardous materials used in laboratory experiments and activities.</span>",
-        list: [],
+        heading: "Science or Laboratory Departments:",
+        list: [
+          "In schools where laboratories are present, science or laboratory departments oversee the proper handling, storage, and disposal of chemicals and other hazardous materials used in laboratory experiments and activities."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Administrative Departments:</span><span class='font-medium ml-1'>Administrative departments within the school district, such as the superintendent's office or business office, may also play a role in overseeing hazardous waste disposal practices. They may provide oversight, allocate resources, and ensure that appropriate policies and procedures are in place.</span>",
-        list: [],
+        heading: "Administrative Departments:",
+        list: [
+          "Administrative departments, such as the superintendent's office or business office, may oversee hazardous waste disposal practices.",
+          "They may allocate resources, provide oversight, and ensure that appropriate policies and procedures are in place."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Compliance and Regulatory Affairs:</span><span class='font-medium ml-1'>Some school districts may have dedicated departments or personnel responsible for ensuring compliance with environmental regulations and standards. These individuals may monitor regulatory developments, maintain records, and liaise with regulatory agencies regarding hazardous waste disposal requirements.</span>",
-        list: [],
-      },
-    ],
+        heading: "Compliance and Regulatory Affairs:",
+        list: [
+          "Some school districts may have dedicated departments or personnel responsible for ensuring compliance with environmental regulations and standards.",
+          "These individuals may monitor regulatory developments, maintain records, and liaise with regulatory agencies regarding hazardous waste disposal requirements."
+        ]
+      }
+    ]
   },
+  
+   // --------------------------------------------------------------------------  question 15---------------------
+   {
+    title: "Which department budget in the school district is responsible for paying for hazardous waste disposal?",
+    header: "The department budget responsible for paying for hazardous waste disposal in a school district can vary depending on the specific policies and practices of the district. However, it is typically the responsibility of the department overseeing facilities management or environmental health and safety (EHS) to allocate funds for hazardous waste disposal activities.",
+    footer: "Ultimately, the allocation of funds for hazardous waste disposal depends on the budget priorities and financial management practices of the school district. Collaboration among relevant departments and careful budget planning are essential to ensure that adequate resources are available to manage hazardous waste safely and effectively.",
+    list: [
+      {
+        heading: "Facilities Maintenance Budget:",
+        list: [
+          "This budget category often includes funds allocated for the upkeep and maintenance of school facilities, which may encompass waste management activities such as hazardous waste disposal."
+        ]
+      },
+      {
+        heading: "Environmental Health and Safety (EHS) Budget:",
+        list: [
+          "Some school districts may have a dedicated budget line item for EHS activities, including hazardous waste management and disposal.",
+          "This budget may cover costs associated with training, compliance, and waste disposal services."
+        ]
+      },
+      {
+        heading: "Science or Laboratory Budget:",
+        list: [
+          "If hazardous waste is generated primarily from laboratory activities, funds for disposal may be included in the budget of the science or laboratory department.",
+          "This budget category may cover the purchase of chemicals, lab supplies, and disposal services."
+        ]
+      },
+      {
+        heading: "General Administrative Budget:",
+        list: [
+          "In some cases, the costs of hazardous waste disposal may be absorbed by the general administrative budget of the school district.",
+          "This budget category may include funds for various administrative expenses, including those related to compliance with environmental regulations."
+        ]
+      },
+      {
+        heading: "Grants or Special Funding:",
+        list: [
+          "School districts may also receive grants or special funding from external sources to support environmental initiatives, including hazardous waste management.",
+          "These funds may supplement existing department budgets or support specific projects related to waste disposal."
+        ]
+      }
+    ]
+  },
+  
+   // --------------------------------------------------------------------------  question 16---------------------
+   {
+    title: "How to Improve Communication Among School District Departments to Follow Environmental Regulations",
+    header: "Improving communication among school district departments to ensure compliance with environmental regulations requires a coordinated and proactive approach. Here are some steps you can take to enhance communication and collaboration:",
+    footer: "By taking these proactive steps to improve communication and collaboration among school district departments, you can enhance compliance with environmental regulations and promote a culture of environmental responsibility throughout the organization.",
+    list: [
+      {
+        heading: "Establish Clear Lines of Communication:",
+        list: [
+          "Create channels for regular communication between departments responsible for environmental compliance, such as facilities management, environmental health and safety (EHS), procurement, and finance.",
+          "This can include regular meetings, email updates, or a dedicated communication platform."
+        ]
+      },
+      {
+        heading: "Designate a Compliance Coordinator:",
+        list: [
+          "Appoint a designated staff member or team responsible for overseeing environmental compliance across departments.",
+          "This individual can serve as a central point of contact for questions, concerns, and updates related to regulatory requirements."
+        ]
+      },
+      {
+        heading: "Provide Training and Education:",
+        list: [
+          "Offer training sessions or workshops to educate staff members about relevant environmental regulations, including hazardous waste disposal, air quality standards, water management, and energy conservation.",
+          "Ensure that all departments understand their roles and responsibilities in meeting compliance requirements."
+        ]
+      },
+      {
+        heading: "Develop Written Policies and Procedures:",
+        list: [
+          "Establish clear policies and procedures outlining the steps each department should take to ensure compliance with environmental regulations.",
+          "Document protocols for hazardous waste handling, spill response, chemical management, and other relevant activities."
+        ]
+      },
+      {
+        heading: "Foster Collaboration:",
+        list: [
+          "Encourage collaboration and information sharing among departments by emphasizing the importance of environmental stewardship and regulatory compliance.",
+          "Promote a culture of teamwork and mutual support to address compliance challenges effectively."
+        ]
+      },
+      {
+        heading: "Implement Technology Solutions:",
+        list: [
+          "Utilize technology tools such as document management systems, compliance software, and digital communication platforms to streamline information sharing and document compliance activities.",
+          "Centralize data related to environmental permits, inspections, and compliance status to facilitate access and reporting."
+        ]
+      },
+      {
+        heading: "Conduct Regular Audits and Inspections:",
+        list: [
+          "Schedule periodic audits and inspections to assess compliance with environmental regulations across departments.",
+          "Identify areas of non-compliance or improvement opportunities and develop corrective action plans to address deficiencies."
+        ]
+      },
+      {
+        heading: "Engage External Resources:",
+        list: [
+          "Seek assistance from external experts, consultants, or regulatory agencies to provide guidance on interpreting and implementing environmental regulations.",
+          "Attend workshops, conferences, or webinars to stay informed about emerging regulations and best practices."
+        ]
+      },
+      {
+        heading: "Establish Partnerships:",
+        list: [
+          "Collaborate with local government agencies, environmental organizations, and industry associations to exchange information, share resources, and leverage expertise in environmental compliance.",
+          "Participate in community initiatives and partnerships focused on sustainability and environmental protection."
+        ]
+      },
+      {
+        heading: "Monitor Performance and Celebrate Successes:",
+        list: [
+          "Track key performance indicators related to environmental compliance and communicate progress regularly to stakeholders.",
+          "Recognize departments and individuals for their contributions to compliance efforts and celebrate achievements in environmental stewardship."
+        ]
+      }
+    ]
+  },
+  
+  // --------------------------------------------------------------------------  question 17---------------------
   {
-    title:
-      "Which department budget in the school district is responsible for paying for hazardous waste disposal?",
-    header:
-      "The department budget responsible for paying for hazardous waste disposal in a school district can vary depending on the specific policies and practices of the district. However, it is typically the responsibility of the department overseeing facilities management or environmental health and safety (EHS) to allocate funds for hazardous waste disposal activities.<br/>Funds for hazardous waste disposal may come from various sources within the school district's overall budget, including:",
-    footer:
-      "Ultimately, the allocation of funds for hazardous waste disposal depends on the budget priorities and financial management practices of the school district. Collaboration among relevant departments and careful budget planning are essential to ensure that adequate resources are available to manage hazardous waste safely and effectively.",
+    title: "What is a Small Quantity Generator and How is it Important for Hazardous Waste Disposal at My School?",
+    header: "A Small Quantity Generator (SQG) is a designation given to facilities that generate a limited amount of hazardous waste within a specified period, typically per month. The specific threshold for being classified as an SQG can vary depending on regulatory requirements, but generally, SQGs produce less hazardous waste compared to larger generators. Being classified as an SQG is important for hazardous waste disposal at your school for several reasons:",
+    footer: "Overall, being classified as an SQG allows schools to manage hazardous waste disposal activities more efficiently, cost-effectively, and responsibly while ensuring compliance with environmental regulations.",
     list: [
       {
-        heading:
-          "<span class='font-bold'>Facilities Maintenance Budget:</span><span class='font-medium ml-1'>This budget category often includes funds allocated for the upkeep and maintenance of school facilities, which may encompass waste management activities such as hazardous waste disposal.</span>",
-        list: [],
+        heading: "Reduced Regulatory Burden:",
+        list: [
+          "SQGs are subject to less stringent regulatory requirements compared to larger quantity generators (LQGs).",
+          "This typically means fewer reporting obligations and less complex compliance procedures, making it easier for schools to manage hazardous waste disposal activities."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Environmental Health and Safety (EHS) Budget:</span><span class='font-medium ml-1'>Some school districts may have a dedicated budget line item for EHS activities, including hazardous waste management and disposal. This budget may cover costs associated with training, compliance, and waste disposal services.</span>",
-        list: [],
+        heading: "Simplified Waste Management:",
+        list: [
+          "SQGs are typically allowed to accumulate hazardous waste on-site for a longer period compared to LQGs, which may have more frequent disposal requirements.",
+          "This provides schools with more flexibility in scheduling waste pickups and reduces the frequency of disposal activities."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Science or Laboratory Budget:</span><span class='font-medium ml-1'>If hazardous waste is generated primarily from laboratory activities, funds for disposal may be included in the budget of the science or laboratory department. This budget category may cover the purchase of chemicals, lab supplies, and disposal services.</span>",
-        list: [],
+        heading: "Cost Savings:",
+        list: [
+          "Compliance costs associated with hazardous waste disposal can be lower for SQGs compared to LQGs due to reduced regulatory requirements and less frequent waste pickups.",
+          "This can result in cost savings for schools, especially those with limited budgets."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>General Administrative Budget:</span><span class='font-medium ml-1'>In some cases, the costs of hazardous waste disposal may be absorbed by the general administrative budget of the school district. This budget category may include funds for various administrative expenses, including those related to compliance with environmental regulations.</span>",
-        list: [],
+        heading: "Environmental Protection:",
+        list: [
+          "Proper management of hazardous waste, even in smaller quantities, is essential for protecting human health and the environment.",
+          "By adhering to SQG regulations and responsibly disposing of hazardous waste, schools can minimize the risk of pollution and environmental contamination."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Grants or Special Funding:</span><span class='font-medium ml-1'>School districts may also receive grants or special funding from external sources to support environmental initiatives, including hazardous waste management. These funds may supplement existing department budgets or support specific projects related to waste disposal.</span>",
-        list: [],
-      },
-    ],
+        heading: "Educational Opportunities:",
+        list: [
+          "Managing hazardous waste disposal in compliance with SQG regulations provides educational opportunities for students and staff.",
+          "It allows schools to teach students about environmental stewardship, regulatory compliance, and the importance of proper waste management practices."
+        ]
+      }
+    ]
   },
-  {
-    title:
-      "How do I improve communication among my school district departments to follow environmental regulations?",
-    header:
-      "Improving communication among school district departments to ensure compliance with environmental regulations requires a coordinated and proactive approach. Here are some steps you can take to enhance communication and collaboration:",
-    footer:
-      "By taking these proactive steps to improve communication and collaboration among school district departments, you can enhance compliance with environmental regulations and promote a culture of environmental responsibility throughout the organization.",
+  
+   // --------------------------------------------------------------------------  question 18---------------------
+   {
+    title: "How Can Our School Be Compliant with Environmental Regulations?",
+    header: "To ensure compliance with environmental regulations at your school, consider the following steps:",
+    footer: "By following these steps and prioritizing environmental compliance, your school can minimize its environmental impact, protect the health and safety of students and staff, and demonstrate a commitment to sustainability and responsible stewardship.",
     list: [
       {
-        heading:
-          "<span class='font-bold'>Establish Clear Lines of Communication:</span><span class='font-medium ml-1'>Create channels for regular communication between departments responsible for environmental compliance, such as facilities management, environmental health and safety (EHS), procurement, and finance. This can include regular meetings, email updates, or a dedicated communication platform.</span>",
-        list: [],
+        heading: "Understand Applicable Regulations:",
+        list: [
+          "Familiarize yourself with federal, state, and local environmental regulations that apply to schools, particularly those related to hazardous waste disposal, air and water quality, chemical management, and pollution prevention."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Designate a Compliance Coordinator:</span><span class='font-medium ml-1'>Appoint a designated staff member or team responsible for overseeing environmental compliance across departments. This individual can serve as a central point of contact for questions, concerns, and updates related to regulatory requirements.</span>",
-        list: [],
+        heading: "Designate Responsibility:",
+        list: [
+          "Assign responsibility for environmental compliance to specific individuals or departments within the school district.",
+          "Clearly define roles and responsibilities to ensure accountability."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Provide Training and Education:</span><span class='font-medium ml-1'>Offer training sessions or workshops to educate staff members about relevant environmental regulations, including hazardous waste disposal, air quality standards, water management, and energy conservation. Ensure that all departments understand their roles and responsibilities in meeting compliance requirements.</span>",
-        list: [],
+        heading: "Conduct Regular Audits and Inspections:",
+        list: [
+          "Implement a system for conducting regular audits and inspections of school facilities to identify any potential environmental compliance issues.",
+          "Address any deficiencies promptly."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Develop Written Policies and Procedures:</span><span class='font-medium ml-1'>Establish clear policies and procedures outlining the steps each department should take to ensure compliance with environmental regulations. Document protocols for hazardous waste handling, spill response, chemical management, and other relevant activities.</span>",
-        list: [],
+        heading: "Provide Training and Education:",
+        list: [
+          "Ensure that staff members responsible for environmental compliance receive adequate training on relevant regulations, procedures, and best practices.",
+          "Educate students and staff about their roles in environmental stewardship."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Foster Collaboration:</span><span class='font-medium ml-1'>Encourage collaboration and information sharing among departments by emphasizing the importance of environmental stewardship and regulatory compliance. Promote a culture of teamwork and mutual support to address compliance challenges effectively.</span>",
-        list: [],
+        heading: "Develop Environmental Management Plans:",
+        list: [
+          "Develop and implement comprehensive environmental management plans or programs tailored to the specific needs of your school district.",
+          "Include procedures for waste management, chemical handling, spill prevention and response, energy conservation, and recycling."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Implement Technology Solutions:</span><span class='font-medium ml-1'>Utilize technology tools such as document management systems, compliance software, and digital communication platforms to streamline information sharing and document compliance activities. Centralize data related to environmental permits, inspections, and compliance status to facilitate access and reporting.</span>",
-        list: [],
+        heading: "Establish Waste Management Protocols:",
+        list: [
+          "Develop protocols for the proper management, storage, labeling, and disposal of hazardous and non-hazardous waste generated within school facilities.",
+          "Ensure compliance with regulations governing waste disposal."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Conduct Regular Audits and Inspections:</span><span class='font-medium ml-1'>Schedule periodic audits and inspections to assess compliance with environmental regulations across departments. Identify areas of non-compliance or improvement opportunities and develop corrective action plans to address deficiencies.</span>",
-        list: [],
+        heading: "Promote Pollution Prevention:",
+        list: [
+          "Implement measures to minimize the generation of waste and pollutants.",
+          "Encourage practices such as recycling, energy conservation, water conservation, and environmentally friendly purchasing."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Engage External Resources:</span><span class='font-medium ml-1'>Seek assistance from external experts, consultants, or regulatory agencies to provide guidance on interpreting and implementing environmental regulations. Attend workshops, conferences, or webinars to stay informed about emerging regulations and best practices.</span>",
-        list: [],
+        heading: "Maintain Records and Documentation:",
+        list: [
+          "Keep accurate records of environmental compliance activities, including inspections, audits, training sessions, waste disposal activities, and any regulatory correspondence.",
+          "Documentation is essential for demonstrating compliance during inspections or audits."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Establish Partnerships:</span><span class='font-medium ml-1'>Collaborate with local government agencies, environmental organizations, and industry associations to exchange information, share resources, and leverage expertise in environmental compliance. Participate in community initiatives and partnerships focused on sustainability and environmental protection.</span>",
-        list: [],
+        heading: "Stay Informed and Updated:",
+        list: [
+          "Stay abreast of changes to environmental regulations and guidelines that may affect school operations.",
+          "Regularly review relevant regulatory updates and ensure that compliance practices are adjusted accordingly."
+        ]
       },
       {
-        heading:
-          "<span class='font-bold'>Monitor Performance and Celebrate Successes:</span><span class='font-medium ml-1'>Track key performance indicators related to environmental compliance and communicate progress regularly to stakeholders. Recognize departments and individuals for their contributions to compliance efforts and celebrate achievements in environmental stewardship.</span>",
-        list: [],
+        heading: "Collaborate with Regulatory Agencies:",
+        list: [
+          "Foster positive relationships with regulatory agencies responsible for environmental oversight.",
+          "Seek guidance and assistance from these agencies when needed and maintain open lines of communication."
+        ]
       },
-    ],
+      {
+        heading: "Implement Corrective Actions:",
+        list: [
+          "Address any identified environmental compliance issues promptly and thoroughly.",
+          "Develop and implement corrective action plans to rectify deficiencies and prevent recurrence."
+        ]
+      },
+      {
+        heading: "Engage Stakeholders:",
+        list: [
+          "Involve students, staff, parents, and the community in environmental initiatives and compliance efforts.",
+          "Encourage participation in sustainability projects, environmental awareness campaigns, and community clean-up events."
+        ]
+      }
+    ]
   },
-  {
-    title:
-      "What is a small quantity generator and how is that important for hazardous waste disposal at my school?",
-    header:
-      "A Small Quantity Generator (SQG) is a designation given to facilities that generate a limited amount of hazardous waste within a specified period, typically per month. The specific threshold for being classified as an SQG can vary depending on regulatory requirements, but generally, SQGs produce less hazardous waste compared to larger generators.<br/>Being classified as an SQG is important for hazardous waste disposal at your school for several reasons:",
-    footer:
-      "Overall, being classified as an SQG allows schools to manage hazardous waste disposal activities more efficiently, cost-effectively, and responsibly while ensuring compliance with environmental regulations.",
-    list: [
-      {
-        heading:
-          "<span class='font-bold'>Reduced Regulatory Burden:</span><span class='font-medium ml-1'>SQGs are subject to less stringent regulatory requirements compared to larger quantity generators (LQGs). This typically means fewer reporting obligations and less complex compliance procedures, making it easier for schools to manage hazardous waste disposal activities.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Simplified Waste Management:</span><span class='font-medium ml-1'>SQGs are typically allowed to accumulate hazardous waste on-site for a longer period compared to LQGs, which may have more frequent disposal requirements. This provides schools with more flexibility in scheduling waste pickups and reduces the frequency of disposal activities.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Cost Savings:</span><span class='font-medium ml-1'>Compliance costs associated with hazardous waste disposal can be lower for SQGs compared to LQGs due to reduced regulatory requirements and less frequent waste pickups. This can result in cost savings for schools, especially those with limited budgets.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Environmental Protection:</span><span class='font-medium ml-1'>Proper management of hazardous waste, even in smaller quantities, is essential for protecting human health and the environment. By adhering to SQG regulations and responsibly disposing of hazardous waste, schools can minimize the risk of pollution and environmental contamination.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Educational Opportunities:</span><span class='font-medium ml-1'>Managing hazardous waste disposal in compliance with SQG regulations provides educational opportunities for students and staff. It allows schools to teach students about environmental stewardship, regulatory compliance, and the importance of proper waste management practices.</span>",
-        list: [],
-      },
-    ],
-  },
-  {
-    title:
-      "How can our school be compliant with environmental regulations at my school?",
-    header:
-      "To ensure compliance with environmental regulations at your school, consider the following steps:",
-    footer:
-      "By following these steps and prioritizing environmental compliance, your school can minimize its environmental impact, protect the health and safety of students and staff, and demonstrate a commitment to sustainability and responsible stewardship.",
-    list: [
-      {
-        heading:
-          "<span class='font-bold'>Understand Applicable Regulations:</span><span class='font-medium ml-1'>Familiarize yourself with federal, state, and local environmental regulations that apply to schools, particularly those related to hazardous waste disposal, air and water quality, chemical management, and pollution prevention.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Designate Responsibility:</span><span class='font-medium ml-1'>Assign responsibility for environmental compliance to specific individuals or departments within the school district. Clearly define roles and responsibilities to ensure accountability.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Conduct Regular Audits and Inspections:</span><span class='font-medium ml-1'>Implement a system for conducting regular audits and inspections of school facilities to identify any potential environmental compliance issues. Address any deficiencies promptly.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Provide Training and Education:</span><span class='font-medium ml-1'>Ensure that staff members responsible for environmental compliance receive adequate training on relevant regulations, procedures, and best practices. Educate students and staff about their roles in environmental stewardship.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Develop Environmental Management Plans:</span><span class='font-medium ml-1'>Develop and implement comprehensive environmental management plans or programs tailored to the specific needs of your school district. Include procedures for waste management, chemical handling, spill prevention and response, energy conservation, and recycling.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Establish Waste Management Protocols:</span><span class='font-medium ml-1'>Develop protocols for the proper management, storage, labeling, and disposal of hazardous and non-hazardous waste generated within school facilities. Ensure compliance with regulations governing waste disposal.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Promote Pollution Prevention:</span><span class='font-medium ml-1'>Implement measures to minimize the generation of waste and pollutants. Encourage practices such as recycling, energy conservation, water conservation, and environmentally friendly purchasing.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Maintain Records and Documentation:</span><span class='font-medium ml-1'>Keep accurate records of environmental compliance activities, including inspections, audits, training sessions, waste disposal activities, and any regulatory correspondence. Documentation is essential for demonstrating compliance during inspections or audits.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Stay Informed and Updated:</span><span class='font-medium ml-1'>Stay abreast of changes to environmental regulations and guidelines that may affect school operations. Regularly review relevant regulatory updates and ensure that compliance practices are adjusted accordingly.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Collaborate with Regulatory Agencies:</span><span class='font-medium ml-1'>Foster positive relationships with regulatory agencies responsible for environmental oversight. Seek guidance and assistance from these agencies when needed and maintain open lines of communication.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Implement Corrective Actions:</span><span class='font-medium ml-1'>Address any identified environmental compliance issues promptly and thoroughly. Develop and implement corrective action plans to rectify deficiencies and prevent recurrence.</span>",
-        list: [],
-      },
-      {
-        heading:
-          "<span class='font-bold'>Engage Stakeholders:</span><span class='font-medium ml-1'>Involve students, staff, parents, and the community in environmental initiatives and compliance efforts. Encourage participation in sustainability projects, environmental awareness campaigns, and community clean-up events.</span>",
-        list: [],
-      },
-    ],
-  },
+  
+   // --------------------------------------------------------------------------  question 19---------------------
   {
     title:
       "What are the steps to do the annual chemical inventory at my school sites?",
@@ -1176,6 +1293,7 @@ export const faqData = [
       },
     ],
   },
+  // ----------------------------------------------20
   {
     title:
       "What department in the school district is responsible for paying the annual chemical inventory?",
