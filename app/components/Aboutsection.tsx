@@ -75,14 +75,14 @@ const Aboutsection: React.FC = () => {
           <div className="relative w-full max-w-4xl">
             {/* Close Button */}
             <button
-              className="absolute top- -right-6 text-[#84da63] text-3xl cursor-pointer"
+              className="absolute -top-9 right-2  text-[#84da63] text-3xl cursor-pointer"
               onClick={closeModal}
             >
               &times;
             </button>
 
             {/* Video Player */}
-            <div className="aspect-w-16 aspect-h-9">
+            <div className="aspect-w-16 aspect-h-9 px-2">
               <video className="w-full h-auto" controls autoPlay>
                 <source src="/k12chemical.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
