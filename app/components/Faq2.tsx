@@ -97,7 +97,13 @@ export default Faq2;
 
 
 
+// [
 
+//   { question: "How do I add a new question?", answer: "You can add a new question by editing the FAQ component." },
+//   { question: "Can I insert pictures in my FAQ?", answer: "Yes, you can insert pictures in your FAQ by embedding image tags in the answer." },
+//   { question: "Can I insert a video in my FAQ?", answer: "Yes, videos can also be embedded in the answer using the video tag or other media components." },
+//   { question: "How do I edit or remove the 'FAQ title'?", answer: "You can edit or remove the title by changing the header in the FAQ component." },
+// ];
 
 
 
