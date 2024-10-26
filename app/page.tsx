@@ -10,7 +10,6 @@ import Resours from './components/Resours';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Services from './components/Services';
-import Timing from './components/Timing';
 // import SliderSection from './components/Services';
 
 export default function HomePage() {
